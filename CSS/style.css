@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 html{
     font-size: 20px;
     line-height: normal;
@@ -9,13 +13,14 @@ body {
     background: linear-gradient(70deg, black, grey);
 }
 .container {
-    margin-left: 20px;
     width: 60%;
     font-size: xx-large;
-    text-decoration: none;
 }
-.container:hover{
-    text-decoration: underline;
+#hero{
+    color: white;
+    position: absolute;
+    top: 310px;
+    left: 100px;
 }
 #section1 {
     margin: 0px auto;
@@ -24,7 +29,7 @@ body {
     background-image: url(../Image/vrimg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: 0px;
     
 }
 
