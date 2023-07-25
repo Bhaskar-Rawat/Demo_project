@@ -22,11 +22,21 @@ body {
     top: 310px;
     left: 100px;
 }
+button{
+    height: 40px;
+    width: 90px;
+    border-color: white;
+}
+input{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+}
 #section1 {
     margin: 0px auto;
     height: 100vh; 
     background-color: black;
-    background-image: url(../Image/vrimg.png);
+    background-image: url(../Image/real.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 0px;
